@@ -6,11 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
 </head>
+<header>
+<a href="https://rayan5623.github.io/AnonHelp/index.html">
+    <button> Indietro </button>
+</a>
+</header>
 <body>
-    <form action="???">
-        <input type="text" placeholder="Email"/>
-        <input type="password" placeholder="Password"/>
+    <form method="post">
+        <fieldset>
+        <input id="email" type="text" placeholder="Email"/>
+        <input id="passw" type="password" placeholder="Password"/>
+        <input type="button" onclick="check"/> 
+        </fieldset>
 
     </form>
+<script>
+    function check(){
+        var userN= document.getElementById("email").value;
+        var passw= document.getElementById("passw").value;
+
+        if(userN && passw !=null){
+            alert("Loggato")
+        }
+    }
+</script>
 </body>
 </html>
