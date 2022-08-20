@@ -1,0 +1,29 @@
+*{
+    background-color: rgb(104, 190, 162);
+}
+h1{
+    text-align: center;
+}
+form{
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+fieldset{
+    padding:2rem 0;
+    border: none; /*per rimuovere i bordi, semplicemente impostare border su none o 0*/
+  }
+
+  label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input{
+    margin: 10px 0 0 0; /* margin può settare i valori anche uno ad uno in ordine: top-right-bottom-left*/
+    width: 100%; /*con width al 100% copriranno la stessa lunghezza degli elementi padre*/
+    min-height: 2em;
+}

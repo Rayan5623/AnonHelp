@@ -1,0 +1,24 @@
+L'idea è un app attraverso cui gli utenti possono chattare in maniera anonima se vogliono inserendo solo il nome utente o possono anche loggarsi con Google 
+i pro devono loggarsi su google
+quindi bisogna fare in modo che si uniscano su un unica chat in entrambi i modi
+
+
+guida:
+1- https://www.freecodecamp.org/news/how-i-built-a-public-anonymous-chat-app-in-javascript-34f082b9b98/
+2- riferimento: 
+https://www.youtube.com/watch?v=84GXJANOYFw&list=PLfUtdEcvGHFHdOYFXj4cY6ZIFkSp6MOuY
+3- https://github.com/wdlsvnit/Omeclone [migliore riferimento]
+
+il login con Google è possibile con FireBase a quanto pare
+poi c'è da capire come funziona pusher 
+(rivedere i video di IsJready per firebase e pusher)
+vorrei non dover salvare per forza i messaggi altrimenti si perde l'essenza della chat
+dal tutorial di socket.io si può prendere la prima parte di chat solo con nome utente
+
+// aggiornamento 14/08/2022
+L'idea è un app attraverso cui gli utenti possono chattare in maniera anonima, inserendo un nome utente volendo
+i pro avranno a disposizione una password generata da un geratore di password casuale e/o un otp password(in cartella, fatto con php ancora devo leggere come funzione e come è stato fatto)
+tecnologia: reactjs
+
+
+
