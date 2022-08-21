@@ -1,4 +1,5 @@
 <!-- landing page-->
+<!-- se la pagina non dovesse caricare subito, premere ctrl+shift+r per il refresh forzato-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,32 +12,42 @@
     <link rel="icon" href="./icon.png" type="image/icon type">
 </head>
 
-<body>
 
+<body>
+<header>
+    <a href="https://rayan5623.github.io/AnonHelp/loginH.html">
+        Login per helper
+    </a>
+</header>
+    <div class="verticale">
     <h1> AnonHelp </h1>
 
         <form method="post">
         <fieldset>
         <label> Username: <input id="user" type="text"/></label>
-            <input onClick="userfu()" type="button" value="Entra"/>
-    </div>
+        <input onClick="userfu()" type="button" value="Entra"/>
+    
 <script>
     function userfu(){
         
        // document.getElementById("prova").innerHTML = {user};
         var user = document.getElementById("user").value;
+        if(user==null){
+        user = "Anonymous";
         alert(user);
-        window.open("https://rayan5623.github.io/AnonHelp/chat.html")
+        window.open("https://rayan5623.github.io/AnonHelp/chat.html");
+        }else if(user!=null){
+            alert(user);
+            window.open("https://rayan5623.github.io/AnonHelp/chat.html");
+        }
        //alert(document.getElementById("user").value); .value -> è usato per restituire il valore contenuto nell'input "username"
 
     }
 </script>
 </fieldset>
 </form>
-
-    <a class="login" href="https://rayan5623.github.io/AnonHelp/loginH.html">
-        Login per helper
-    </a>
+</div>
+  
 </body>
 
 </html>

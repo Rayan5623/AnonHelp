@@ -1,8 +1,17 @@
-h1{
+h1 {
     text-align: center;
-    color:black
+    color: black
 }
 
-body{
+body {
     background-color: cadetblue;
+}
+
+fieldset {
+    width: fit-content;
+    border: none;
+    margin: 20% 50% 0%;
+}
+input{
+    width: 230px;
 }

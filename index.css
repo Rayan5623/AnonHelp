@@ -1,8 +1,39 @@
-h1{
+h1 {
+    display: inline-block;
     font-size: 60px;
     color: rgb(0, 0, 0);
+    margin: 1% 50% 1%;
     text-align: center;
+    border-left-width: 50%;
+    border-right-width: 50%
 }
-body{
+
+body {
     background-color: cadetblue;
+}
+
+fieldset {
+    width: fit-content;
+    border: none;
+    margin: 20% 50% 0%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.verticale {
+    padding: 20px;
+    max-width: 500px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input{
+    margin-top: 5 px;
+}
+
+label{
+    margin-bottom: 2px;
 }
