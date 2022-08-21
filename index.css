@@ -26,8 +26,7 @@ a:link {
     padding: 20px;
     max-width: 500px;
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0% 20% 0%;
 }
 
 input{
