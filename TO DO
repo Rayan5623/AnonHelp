@@ -1,0 +1,11 @@
+1- capire come funziona php e mongo db
+2- capire come funziona nodejs e mondo db 
+3- capire se mysql si può usare e come metterlo online
+4- capire come integrare cookie con js
+5- capire come stabilire delle connessioni tra utenti
+
+
+da una prima analisi sembra che mongo db sia la scelta migliore poichè già online
+senza troppo lavoro.
+
+credo bisogna capire come funzionano le sessioni
