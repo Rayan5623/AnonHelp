@@ -14,20 +14,20 @@
 </a>
 </header>
 <body>
-
+    <div class="verticale">
     <form method="post">
         <fieldset>
         <label>Email: <input id="email" type="text" placeholder="Email"/></label>
         <label>Password: <input id="passw" type="password" placeholder="Password"/></label>
         <input type="button" onclick="check()" value="Let's check"/> 
-        </fieldset>
+        
 <script>
     function check(){
         var email= document.getElementById("email").value;
         var passw= document.getElementById("passw").value;
 
         if(email==""){
-            alert("Ehi ti sei dimenticato la mail");
+            alert("Inserire email e password");
         }else if(email!=null){
             alert(email);
             alert(passw); // prende entrambi i valori
@@ -40,7 +40,9 @@
         }
     }
 </script>
-    </form>
+</fieldset>
+</form>
+</div>
 
 </body>
 </html>

@@ -15,3 +15,14 @@ fieldset {
 input{
     width: 230px;
 }
+
+.verticale {
+    padding: 20px;
+    max-width: 500px;
+    width: 80%;
+    margin: 0% 20% 0%;
+}
+
+label{
+    margin-bottom: 2px;
+}
