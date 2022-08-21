@@ -25,10 +25,11 @@
     function check(){
         var email= document.getElementById("email").value;
         var passw= document.getElementById("passw").value;
-        alert(email);
 
         if(email==""){
             alert("Ehi ti sei dimenticato la mail");
+        }else if(email!=null){
+            alert(email, passw);
         }
     }
 </script>
