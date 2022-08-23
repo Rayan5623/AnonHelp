@@ -1,5 +1,5 @@
 function pushuser(user){
-    getuser();
+    getUser();
     document.getElementById("userplace").innerHTML = user;
     
 }

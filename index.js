@@ -1,4 +1,4 @@
-function getuser(user){
+function getUser(user){
         
        // document.getElementById("prova").innerHTML = {user};
         var user = document.getElementById("user").value;
@@ -14,3 +14,4 @@ function getuser(user){
        return user;
 
     }
+
