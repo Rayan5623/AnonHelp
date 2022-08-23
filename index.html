@@ -25,25 +25,10 @@
         <form method="post">
         <fieldset>
         <label> Username: <input id="user" type="text"/></label>
-        <input onClick="userfu()" type="button" value="Entra"/>
+        <input onClick="getuser()" type="button" value="Entra"/>
+        <script type="text/javascript" src="./index.js"></script>
     
-<script>
-    function userfu(){
-        
-       // document.getElementById("prova").innerHTML = {user};
-        var user = document.getElementById("user").value;
-        if(user==null){
-        user = "Anonymous";
-        alert(user);
-        window.open("https://rayan5623.github.io/AnonHelp/chat.html");
-        }else if(user!=null){
-            alert(user);
-            window.open("https://rayan5623.github.io/AnonHelp/chat.html");
-        }
-       //alert(document.getElementById("user").value); .value -> è usato per restituire il valore contenuto nell'input "username"
 
-    }
-</script>
 </fieldset>
 </form>
 </div>

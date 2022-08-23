@@ -4,3 +4,7 @@ h1{
 body {
     background-color: cadetblue;
 }
+.userplace{
+    text-align: center;
+    font-size: 25px;
+}
