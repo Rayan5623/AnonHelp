@@ -23,16 +23,21 @@ function setCookie(cname, cvalue, exdays) { // crea il cookie
   }
   
   function checkCookie() { // verifica se il cookie è stato settato, il controllo del cookie avviene in questa funzione
-    let user = document.getElementById("user").value;
-    //let user = getCookie("username");
+    let user = getCookie("username");
     if (user != "") {
       alert("Welcome again " + user);
     } else {
-      user = prompt("Please enter your name:", "");
+      //user = prompt("Please enter your name:", "");
+     let user = document.getElementById("user").value;
       if (user != "" && user != null) {
         setCookie("username", user, 365);
       }
     }
     window.open("./chat.html");
+    return user;
   } 
+
+  function diouser(){
+    alert(checkCookie());
+  }
 
