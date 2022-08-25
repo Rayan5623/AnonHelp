@@ -36,3 +36,7 @@ function setCookie(cname, cvalue, exdays) { // crea il cookie
     window.open("./chat.html");
   } 
 
+  function dioUser(){
+    let user = document.getElementById("user").value;
+    alert(checkCookie());
+  }
