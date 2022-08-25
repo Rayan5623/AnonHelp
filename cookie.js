@@ -22,20 +22,17 @@ function setCookie(cname, cvalue, exdays) { // crea il cookie
     return "";
   }
   
-  function checkCookie(u) { // verifica se il cookie è stato settato, il controllo del cookie avviene in questa funzione
+  function checkCookie() { // verifica se il cookie è stato settato, il controllo del cookie avviene in questa funzione
+    let user = document.getElementById("user").value;
     //let user = getCookie("username");
-    if (u != "") {
-      alert("Welcome again " + u);
+    if (user != "") {
+      alert("Welcome again " + user);
     } else {
-      //user = prompt("Please enter your name:", "");
-      if (u != "" && u != null) {
-        setCookie("username", u, 365);
+      user = prompt("Please enter your name:", "");
+      if (user != "" && user != null) {
+        setCookie("username", user, 365);
       }
     }
     window.open("./chat.html");
   } 
 
-  function dioUser(){
-    let user = document.getElementById("user").value;
-    checkCookie(user);
-  }
