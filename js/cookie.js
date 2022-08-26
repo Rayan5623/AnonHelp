@@ -28,7 +28,7 @@ function setCookie(cname, cvalue, exdays) { // crea il cookie
     if (user != "") {
       alert("Welcome again " + user);
     } else {
-      user = prompt("Please enter your name:", "");
+      user = "Anonymous";
       if (user != "" && user != null) {
         setCookie("username", user, 365);
       }
