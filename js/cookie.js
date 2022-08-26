@@ -34,5 +34,6 @@ function setCookie(cname, cvalue, exdays) { // crea il cookie
       }
     }
     window.open("./chat.html");
+    alert(user);
   } 
 
