@@ -20,29 +20,8 @@
         <label>Email: <input id="email" type="text" placeholder="Email"/></label>
         <label>Password: <input id="passw" type="password" placeholder="Password"/></label>
         <input type="button" onclick="check()" value="Let's check"/> 
-        
-<script>
-    function check(){
-        var email= document.getElementById("email").value;
-        var passw= document.getElementById("passw").value;
-
-        if(email==""){
-            alert("Inserire email e password");
-        }else if(email!=null){
-            alert(email);
-            alert(passw); // prende entrambi i valori
-            if(email=="Alberto"){
-                window.open("https://rayan5623.github.io/AnonHelp/dashboard.html")
-// in teoria bisogna avere uno script js o pho che faccia 
-//il lavoro sporco di interfacciarsi con mongo db
-// verificare che la password generata dallo script in php risulti sul database e permettere l'accesso in dashboard
-
-
-            }
-        }
-    }
-</script>
 </fieldset>
+<script type="text/javascript" src="./js/loginH.js"></script>
 </form>
 </div>
 
