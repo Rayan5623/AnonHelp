@@ -36,4 +36,4 @@ function setCookie(cname, cvalue, exdays) {
     }
   } 
 
-  setCookie("username", "potato", 1)
+  //setCookie("username", "potato", 1)
