@@ -23,6 +23,7 @@ function setCookie(cname, cvalue, exdays) { // crea il cookie
   }
   
   function checkCookie() { // verifica se il cookie è stato settato, il controllo del cookie avviene in questa funzione
+  // funziona come deve, ma errore 405 su chat.html perchè chat non può ricevere dati
     let user = document.getElementById("user").value;
     //let user = getCookie("username");
     if (user != "") {
@@ -34,6 +35,5 @@ function setCookie(cname, cvalue, exdays) { // crea il cookie
       }
     }
     window.open("./chat.html");
-    alert(user);
   } 
 
