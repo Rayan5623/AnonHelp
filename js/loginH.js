@@ -8,8 +8,7 @@ function check(){
             alert(email);
             alert(passw); // prende entrambi i valori
             if(email=="Alberto"){
-                //window.open("https://rayan5623.github.io/AnonHelp/dashboard.html")
-                window.open("./dashboard.html")
+                window.open("https://rayan5623.github.io/AnonHelp/dashboard.html");
 // in teoria bisogna avere uno script js o php che faccia 
 //il lavoro sporco di interfacciarsi con mongo db
 // verificare che la password generata dallo script in php risulti sul database e permettere l'accesso in dashboard
