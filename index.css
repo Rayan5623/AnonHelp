@@ -9,7 +9,8 @@ h1 {
 }
 
 body {
-    background-color: cadetblue;
+    height:100%;
+    background-color: #c5eee6;
 }
 
 fieldset {
@@ -33,6 +34,23 @@ input{
     margin-top: 5 px;
 }
 
+.button-to-site{
+    background-color: #ffffff;
+    border-width: 2px;
+    border-color: black;
+    border-style: double;
+    position: relative;
+    top:25px;
+    left:10px;
+    padding-top: 25px;
+    padding-bottom: 25px ;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 300px;
+    height: 100px;
+    font-size: large;
+    color:black;
+}
 label{
     margin-bottom: 2px;
 }
