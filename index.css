@@ -8,6 +8,10 @@ h1 {
     border-right-width: 50%
 }
 
+#a{
+    float: left;
+}
+
 body {
     height:100%;
     background-color: #c5eee6;
