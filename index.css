@@ -11,6 +11,7 @@
     #a{
         position: absolute;
         left: 3%;
+        padding-top: 1px;
     }
     
     body {
@@ -44,6 +45,8 @@
         width: 80%;
         margin: 0% 20% 0%;
     }
+    
+   
     
     input{
         margin-top: 5 px;
