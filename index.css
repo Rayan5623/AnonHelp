@@ -1,5 +1,4 @@
     h1 {
-        text-align: center;
         font-size: 47px;
         color: rgb(0, 0, 0);
         margin: 1% 50% 1%;
@@ -8,7 +7,7 @@
         left: -8%;
     }
     
-    #a{
+    header a{
         position: absolute;
         left: 3%;
         padding-top: 1px;
@@ -46,8 +45,6 @@
         margin: 0% 20% 0%;
     }
     
-   
-    
     input{
         margin-top: 5 px;
     }
@@ -72,5 +69,9 @@
         margin-bottom: 2px;
     }
     .up{
+        display: flex;
         align-items: center;
+    }
+    div:nth-last-of-type(3){
+        display: none;
     }
