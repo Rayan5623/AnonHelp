@@ -71,4 +71,6 @@
     label{
         margin-bottom: 2px;
     }
-    
+    .up{
+        align-items: center;
+    }
