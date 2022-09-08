@@ -71,6 +71,7 @@
     .up{
         display: flex;
         align-items: center;
+        text-align: center;
     }
     div:nth-last-of-type(3){
         display: none;
