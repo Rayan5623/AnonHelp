@@ -7,7 +7,7 @@ function check(){
         }else if(email!=null){
             alert(email);
             alert(passw); // prende entrambi i valori
-            if(email=="Alberto"){
+            if(passw=="Alberto"){
                 window.open("https://rayan5623.github.io/AnonHelp/dashboard.html");
 // in teoria bisogna avere uno script js o php che faccia 
 //il lavoro sporco di interfacciarsi con mongo db
