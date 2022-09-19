@@ -11,14 +11,15 @@ app.use(express.static(__dirname + '/public'));
 app.get("/",function(req,res){
     res.render("page"); //renderizza il file Jade, lo trasforma in HTML e lo invia in output
 });
-// richiamo la libreroa socket.io e la metto in attesa sulla porta indicata 
+// richiamo la libreria socket.io e la metto in attesa sulla porta indicata 
 const Server = require('socket.io');
-const io = new Server(port);
-console.log("Server in ascolto sulla porta " + port)
+const io = new Server(port)
 
-io.sockets.on('connection', function (socket) {
+console.log("Server in ascolto sulla porta " + port)
+// handler connection
+io.sockets.on('connection', function (socket)/*è il socket del client*/ {
     socket.emit('message', { message: 'Benvenuto in chat'});
-    socket.on('send', function(data){
-        io.sockets.emit('message', data);
+    socket.on('send', function(data){ /*è in ascolto di un messaggio*/
+        io.sockets.emit('message', data); // invia il messaggio in broadcast a tutti i client connessi
     });
 });

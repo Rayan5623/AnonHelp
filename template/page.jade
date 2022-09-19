@@ -4,6 +4,9 @@ doctype html
 html(lang="it")
     head
         title="Real time web chat"
+        script(src='./chat.js')
+<!--Socket.io gestisce la richiesta e il download del file indicato-->
+        script(src='/socket.io/socket.io.js')
     body
     
         #content(style='width: 500px; height:300px; margin 0 0 20px; 0; border: solid 1px #999; overflow-y: scroll;')

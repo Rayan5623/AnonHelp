@@ -1,0 +1,41 @@
+<!--Ciclo for per ogni utente, quindi creare una riga nella tabella-->
+<!DOCTYPE html>
+<html lang="en">
+<style>
+.verticale{
+    padding: 20px;
+    max-width: 500px;
+    width: 80%;
+    margin: 0% 20% 0%;
+}
+
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="tabella">
+    <p>${foto} ${utente}</p>
+    <div class="verticale">
+    <h1>Dashboard</h1>
+    <table>
+     <tr><td>Utente1</td><td>Connesso</td></tr>
+     <tr><td>Utente2</td><td>In Attesa..</td></tr>
+     <tr><td>Utente3</td></tr>
+     <tr><td>Utente4</td></tr>
+     <tr><td>Utente5</td></tr>
+    </table>
+    <input type="button" onclick="utentz()" value="clicca"/>
+    <script type="text/javascript">
+    function utentz(){
+    var q = 10;
+    for(x=0;x=q;x++){
+        docuement.getElementById("tabella").innerHtml+="<tr><td>Utente {x}</td></tr>";
+    }    
+    }
+</script>
+    </div>
+</body>
+</html>
