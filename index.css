@@ -73,6 +73,6 @@
         align-items: center;
         text-align: center;
     }
-    div:last-of-type{
+    .lastdiv{
         background-color: inherit;
     }
