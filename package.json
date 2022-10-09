@@ -1,33 +1,9 @@
 {
-  "name": "anonhelp",
-  "version": "1.0.0",
-  "description": "null",
-  "main": "app.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "start": "nodemon ./app.js --exec babel-node -e js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Rayan5623/AnonHelp.git"
-  },
-  "author": "Ray",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Rayan5623/AnonHelp/issues"
-  },
-  "homepage": "https://github.com/Rayan5623/AnonHelp#readme",
-  "dependencies": {
-    "express": "^4.18.1",
-    "nodemon": "^2.0.20",
-    "socket.io": "^4.5.2"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-stage-0": "^6.24.1"
-  }
+    "name": "chat-example",
+    "version": "0.0.1",
+    "description": "from socket.io guide",
+    "dependencies": {
+        "express": "^4.18.1",
+        "socket.io": "^4.5.2"
+    }
 }
