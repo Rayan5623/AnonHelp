@@ -39,5 +39,5 @@ function setCookie(cname, cvalue, exdays) {
       }
     }while(user == "");
   } 
-
+// adesso accetta anche i cookie in bianco con user= null 
   //setCookie("username", "potato", 1)
