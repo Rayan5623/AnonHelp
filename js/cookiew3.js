@@ -36,7 +36,7 @@ function setCookie(cname, cvalue, exdays) {
         setCookie("username", "Anonymus", 365);
       }
     }
-    window.open("https://rayan5623.github.io/AnonHelp/chat.html");
+    window.open("./chat.html");
   } 
 
   //setCookie("username", "potato", 1)
