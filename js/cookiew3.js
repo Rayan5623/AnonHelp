@@ -26,17 +26,18 @@ function setCookie(cname, cvalue, exdays) {
   
   function checkCookie() {
     let user = getCookie("username");
-    if (user != "") {
-      alert("Bentornato " + user);
-    } else {
-      user = prompt("Scegli un username:", "");
-      if (user != "" || user != null) {
-        setCookie("username", user, 365);
-      }else if (user == "" || user == null){
-        setCookie("username", "Anonymus", 365);
+    do{
+      if (user != "") {
+        alert("Bentornato " + user);
+      } else {
+        user = prompt("Scegli un username:", "");
+        if (user != "" || user != null) {
+          setCookie("username", user, 365);
+        }else if (user == "" || user == null){
+          setCookie("username", "Anonymus", 365);
+        }
       }
-      window.open("./chat.html");
-    }
+    }while(user == "");
   } 
 
   //setCookie("username", "potato", 1)
