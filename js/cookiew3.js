@@ -32,13 +32,11 @@ function setCookie(cname, cvalue, exdays) {
       user = prompt("Please enter your name:", "");
       if (user != "" && user != null) {
         setCookie("username", user, 365);
+      }else if (user == "" && user == null){
+        setCookie("username", "Anonymus", 365);
       }
     }
     window.open("https://rayan5623.github.io/AnonHelp/chat.html");
   } 
 
   //setCookie("username", "potato", 1)
-  function lolCookie(){
-    let x = docuement.cookie;
-    alert(x);
-  }
