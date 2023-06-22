@@ -30,9 +30,9 @@ function setCookie(cname, cvalue, exdays) {
       alert("Welcome again" + user);
     } else {
       user = prompt("Please enter your name:", "");
-      if (user != "" && user != null) {
+      if (user != "" || user != null) {
         setCookie("username", user, 365);
-      }else if (user == "" && user == null){
+      }else if (user == "" || user == null){
         setCookie("username", "Anonymus", 365);
       }
     }
