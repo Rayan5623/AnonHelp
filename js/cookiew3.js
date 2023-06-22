@@ -38,3 +38,7 @@ function setCookie(cname, cvalue, exdays) {
   } 
 
   //setCookie("username", "potato", 1)
+  function lolCookie(){
+    let x = docuement.cookie;
+    alert(x);
+  }
