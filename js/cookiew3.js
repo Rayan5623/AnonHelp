@@ -26,7 +26,7 @@ function setCookie(cname, cvalue, exdays) {
   
   function checkCookie() {
     
-      let user = getCookie("username");
+      var user = getCookie("username");
       if (user != "") {
         alert("Bentornato " + user);
       } else {
@@ -34,7 +34,8 @@ function setCookie(cname, cvalue, exdays) {
         if (user != "" || user != null) {
           setCookie("username", user, 365);
         }else if (user == "" || user == null){
-          setCookie("username", "Anonymus", 365);
+          user == "Anonymus";
+          setCookie("username", user, 365);
         }
         if (user=="Anonymus" || user != null){
           window.open("../chat.html");
@@ -45,7 +46,7 @@ function setCookie(cname, cvalue, exdays) {
   //setCookie("username", "potato", 1)
 
 function checkCookie1(){
-  while(user==""){
+  while(user !="Anonymus" || user !=null){
 
   }
 }
