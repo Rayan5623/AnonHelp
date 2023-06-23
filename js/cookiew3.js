@@ -38,7 +38,7 @@ function setCookie(cname, cvalue, exdays) {
           setCookie("username", user, 365);
         }
         if (user=="Anonymus" || user != null){
-          window.open("../chat.html");
+          window.open("./chat.html");
         }
       }
   } 
