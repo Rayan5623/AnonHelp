@@ -26,7 +26,6 @@ function setCookie(cname, cvalue, exdays) {
   
   function checkCookie() {
     
-    do{
       let user = getCookie("username");
       if (user != "") {
         alert("Bentornato " + user);
@@ -37,9 +36,16 @@ function setCookie(cname, cvalue, exdays) {
         }else if (user == "" || user == null){
           setCookie("username", "Anonymus", 365);
         }
+        if (user=="Anonymus" || user != null){
+          window.open("../chat.html");
+        }
       }
-    }while(user == "");
-    window.open("../chat.html");
   } 
 // adesso accetta anche i cookie in bianco con user= null 
   //setCookie("username", "potato", 1)
+
+function checkCookie1(){
+  while(user==""){
+
+  }
+}
